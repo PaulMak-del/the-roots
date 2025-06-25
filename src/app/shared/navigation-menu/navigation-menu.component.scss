@@ -1,0 +1,21 @@
+@use '@angular/material' as mat;
+@import '../../styles/theme-colors';
+
+ul {
+    margin: 0;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    height: 100%;
+    background-color: mat.m2-get-color-from-palette($primary-palette, 95);
+
+    .sidebar__nav {
+
+    }
+}
+
+
+
